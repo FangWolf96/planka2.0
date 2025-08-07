@@ -1,4 +1,4 @@
-# PLANKA
+# COREPOINT (PLANKA FORK)
 
 **Project mastering driven by fun**
 

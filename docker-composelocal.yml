@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   planka:
-    image: ghcr.io/fangwolf96/planka2.0:latest  # Replace with your actual tag if needed
+    build: .
     restart: on-failure
     volumes:
       - favicons:/app/public/favicons
@@ -22,7 +22,7 @@ services:
       - DEFAULT_ADMIN_NAME=CorePoint Admin
       - DEFAULT_ADMIN_USERNAME=corepoint_admin
 
-      # 📧 SMTP settings
+      # 📧 SMTP settings (edit these for your real provider)
       - SMTP_HOST=smtp.example.com
       - SMTP_PORT=587
       - SMTP_SECURE=true

@@ -15,7 +15,7 @@ export default {
 
   translation: {
     common: {
-      aboutPlanka: 'About PLANKA',
+      aboutPlanka: 'About CorePoint',
       accessToken: 'Access token',
       account: 'Account',
       actions: 'Actions',
@@ -240,7 +240,7 @@ export default {
       others: 'Others',
       phone: 'Phone',
       plankaUsesAppriseToSendNotificationsToOver100PopularServices:
-        'PLANKA uses <1><0>Apprise</0></1> to send notifications to over 100 popular services.',
+        'CorePoint uses <1><0>Apprise</0></1> to send notifications to over 100 popular services.',
       preferences: 'Preferences',
       pressPasteShortcutToAddAttachmentFromClipboard:
         'Tip: press Ctrl-V (Cmd-V on Mac) to add an attachment from the clipboard.',

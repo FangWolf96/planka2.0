@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   planka:
-    image: ghcr.io/fangwolf96/planka2.0:latest  # Replace with your actual tag if needed
+    image: ghcr.io/fangwolf96/corepoint:latest  # Replace with your actual tag if needed
     restart: on-failure
     volumes:
       - favicons:/app/public/favicons
@@ -23,12 +23,12 @@ services:
       - DEFAULT_ADMIN_USERNAME=corepoint_admin
 
       # 📧 SMTP settings
-      - SMTP_HOST=smtp.example.com
-      - SMTP_PORT=587
+      - SMTP_HOST=ads-ice01.wolfco.io
+      - SMTP_PORT=25
       - SMTP_SECURE=true
-      - SMTP_USER=no-reply@wolfco.io
-      - SMTP_PASSWORD=your_smtp_password
-      - SMTP_FROM="CorePoint Admin" <no-reply@wolfco.io>
+      - SMTP_USER=crm@wolfco.io
+      - SMTP_PASSWORD=uwP7TCtUvgcv
+      - SMTP_FROM="CorePoint Admin" <no-reply@armadyne.ca>
 
     depends_on:
       postgres:

@@ -23,11 +23,11 @@ services:
       - DEFAULT_ADMIN_USERNAME=corepoint_admin
 
       # 📧 SMTP settings
-      - SMTP_HOST=ads-ice01.wolfco.io
+      - SMTP_HOST=smtp.host.com
       - SMTP_PORT=25
       - SMTP_SECURE=true
-      - SMTP_USER=crm@wolfco.io
-      - SMTP_PASSWORD=uwP7TCtUvgcv
+      - SMTP_USER=smtp@example.com
+      - SMTP_PASSWORD=password
       - SMTP_FROM="CorePoint Admin" <no-reply@armadyne.ca>
 
     depends_on:
